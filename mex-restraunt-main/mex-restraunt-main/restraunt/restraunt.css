@@ -12,16 +12,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: tomato;
-  color: #fff;
+  background-color: rgba(255, 127, 80, 0.877);
   height: 55px;
+  border-bottom: black solid 1px;
+  position: fixed;
+  width: 100%;
 }
 .h2-nav {
   padding-left: 25px;
 }
 .h2-nav:hover {
   color: black;
-  transition: 1s;
+  transition: 5s;
 }
 
 .nav-links {
@@ -75,7 +77,8 @@ a {
   align-items: center;
   background-image: url("images/pexels-tembela-bohle-1089932.jpg");
   background-size: cover;
-  height: 70vh;
+  background-position-y: 25%;
+  height: 50vh;
   width: 100%;
   color: #fff;
 }
@@ -93,6 +96,9 @@ a {
   align-items: center;
   background-color: darkgrey;
   height: 55px;
+}
+.flex-footer p {
+  margin-right: 25px;
 }
 i {
   padding-left: 25px;
