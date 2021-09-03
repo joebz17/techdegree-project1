@@ -1,0 +1,167 @@
+* {
+  font-family: "Merriweather", serif;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+input[type="user_city"] {
+  width: 100%;
+  height: 55px;
+  background: #eff0f1;
+}
+.user_info {
+  background-color: rgba(222, 214, 245, 0.664);
+}
+.zcode {
+  height: 55px;
+}
+#zip{
+  width:50%;
+}
+.contact_info {
+  padding-bottom: 25px;
+}
+.nletter {
+  padding-top: 25px;
+}
+.signup {
+  padding-top: 25px;
+}
+.news {
+  text-align: center;
+  margin-bottom: 1px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.signup {
+  text-align: center;
+}
+.line {
+  border-top: 5px solid black;
+  border-bottom: 2px solid black;
+  height: 10px;
+  margin-bottom: 25px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: cornflowerblue;
+  transition: background 2s;
+}
+
+input:hover {
+  box-shadow: 0 0 5px rgb(104, 118, 240);
+}
+legend {
+  font-weight: bold;
+}
+
+textarea {
+  border: none;
+  background: #eff0f1;
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #3a4457;
+  color: white;
+  height: 65px;
+  padding-top: 15px;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+form {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+textarea,
+label,
+p {
+  color: grey;
+}
+
+hr {
+  background: black;
+}
+
+fieldset input {
+  border: none;
+  background-color: lightgrey;
+  margin-bottom: 15px;
+}
+
+fieldset {
+  border: none;
+}
+option {
+  border: none;
+}
+select {
+  border: none;
+  background: #eff0f1;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 15px;
+  transition-duration: 4s;
+}
+input::placeholder {
+  text-align: right;
+}
+button {
+  color: white;
+  background: lightseagreen;
+  height: 55px;
+  width: 100%;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: rgb(104, 104, 241);
+}
+
+.copy {
+  text-align: center;
+}
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  .user_info .flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .user_info input select {
+    flex-grow: 1;
+    flex-basis: 75%;
+  }
+  .user_info label {
+    flex-basis: 25%;
+    height: 50px;
+    margin: auto 0;
+  }
+  #zip {
+    max-width: 25%;
+  }
+  .area {
+    max-width: 20%;
+  }
+  form {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .zcode {
+  width: 50%;
+  }
+}
