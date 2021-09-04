@@ -15,23 +15,24 @@
   background-color: rgba(255, 127, 80, 0.877);
   height: 55px;
   border-bottom: black solid 1px;
-  position: fixed;
+
   width: 100%;
 }
+a:hover {
+  color: black;
+  transition: 3s;
+}
+
 .h2-nav {
   padding-left: 25px;
 }
-.h2-nav:hover {
+.h2-nav :hover {
   color: black;
-  transition: 5s;
+  transition: 3s;
 }
 
 .nav-links {
   padding-right: 25px;
-}
-.nav-links a:hover {
-  color: black;
-  transition: 1s;
 }
 
 .menu-tacos {
