@@ -48,14 +48,16 @@ a:hover {
   background-color: coral;
   padding: 8px;
   border: black solid 5px;
+  border-radius: 5px;
 }
 .tacos-2 {
-  margin-left: 25px;
+  margin-left: 15px;
 
   width: 45%;
   background-color: coral;
   border: black solid 5px;
   padding: 8px;
+  border-radius: 5px;
 }
 
 video {
@@ -86,17 +88,22 @@ a {
 .beer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 25px;
-  background-color: black;
-  color: white;
+  background-color: rgb(7, 7, 7);
+  color: rgb(253, 247, 247);
   margin: 5px;
+  height: 16rem;
+}
+.cold {
+  font-size: 2rem;
 }
 .flex-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: darkgrey;
-  height: 55px;
+  height: 12rem;
 }
 .flex-footer p {
   margin-right: 25px;
@@ -112,4 +119,15 @@ i {
 }
 .insta {
   color: crimson;
+}
+/*media quaries*/
+@media screen and (max-width: 520px) {
+  .menu-tacos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    gap: 25px;
+    width: 195%;
+  }
 }

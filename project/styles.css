@@ -118,7 +118,7 @@ header .profile-image:hover {
   /* background-color: #efefef; */
   color: rgb(0, 0, 0);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   display: table;
   margin: 10px auto;
 }
